@@ -10,8 +10,8 @@ import (
 type Model uint8
 
 const (
-	Model2 Model = 2 // 二维
-	Model3 Model = 3 // 三维
+	Model2 Model = 2 // 二维（四边形网格）
+	Model3 Model = 3 // 三维（六边形网格）
 )
 
 // 四边形和六边形 A* 寻路算法
